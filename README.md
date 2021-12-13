@@ -1,5 +1,9 @@
 # Nuclei template for log4shell (CVE-2021-44228)
 
+Based on
+
+https://github.com/projectdiscovery/nuclei-templates/blob/33fbe539302e0912073a305ef7a8b2cde3bd9353/cves/2021/CVE-2021-44228.yaml
+
 ## Usage
 Generate a new DNS bin at https://requestbin.net/dns
 
