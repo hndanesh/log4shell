@@ -34,7 +34,7 @@ Build and start this docker container
 https://github.com/christophetd/log4shell-vulnerable-app
 
 ```
-docker run log4shell -duc -ni -vv -t /CVE-2021-44228.yaml -u http://localhost:8080 -var DNS_CALLBACK='<your_dns_bin_id>.requestbin.net'
+docker run log4shell -duc -ni -vv -t /CVE-2021-44228.yaml -u http://<host_ip>:8080 -var DNS_CALLBACK='<your_dns_bin_id>.requestbin.net'
 ```
 
 ## Improvements
